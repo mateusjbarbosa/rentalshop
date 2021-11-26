@@ -1,0 +1,13 @@
+{
+  "name": "@rentalshop/common-eslint",
+  "version": "0.3.0",
+  "main": ".eslintrc.js",
+  "author": "Mateus José Barbosa",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "eslint": "8.3.0",
+    "eslint-config-google": "0.14.0"
+  }
+}
