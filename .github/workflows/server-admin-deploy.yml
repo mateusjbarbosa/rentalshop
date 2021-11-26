@@ -1,7 +1,7 @@
 name: Build & Deploy Server Admin
 
 on:
-  push:
+  pull_request:
     branches:
       - main
     paths:
