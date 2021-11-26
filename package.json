@@ -1,0 +1,25 @@
+{
+  "name": "rentalshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/common/*",
+      "packages/server/*",
+      "packages/web/*"
+    ]
+  },
+  "scripts": {
+    "test:unit": "jest"
+  },
+  "devDependencies": {
+    "@rentalshop/common-eslint": "*",
+    "@types/jest": "27.0.3",
+    "jest": "27.3.1",
+    "ts-jest": "27.0.7",
+    "typescript": "4.5.2"
+  },
+  "private": true,
+  "author": "Mateus José Barbosa <dev.mateusbarbosa@gmail.com>",
+  "license": "MIT"
+}
